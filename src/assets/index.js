@@ -20,6 +20,15 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import flask from "./tech/flask.png";
+import pandas from "./tech/pandas.png";
+import scikit from "./tech/scikit.png";
+import matplotlib from "./tech/matplotlib.png";
+import wandb from "./tech/wandb.png";
+import java from "./tech/java.png";
+import cpp from "./tech/cpp.png";
+import arduino from "./tech/arduino.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -59,4 +68,13 @@ export {
   carrent,
   jobit,
   tripguide,
+  python,
+  flask,
+  pandas,
+  scikit,
+  matplotlib,
+  wandb,
+  java,
+  cpp,
+  arduino,
 };

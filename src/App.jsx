@@ -1,6 +1,7 @@
 // import pre-built components
 import {BrowserRouter} from 'react-router-dom';
 import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components';
+import {Programming} from './components'
 
 const App = () => {
 
@@ -13,6 +14,7 @@ const App = () => {
         </div>
         <About />
         <Experience />
+        <Programming />
         <Tech />
         <Works />
         <Feedbacks />

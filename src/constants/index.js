@@ -23,6 +23,15 @@ import {
     jobit,
     tripguide,
     threejs,
+    python, 
+    flask,
+    pandas,
+    scikit,
+    matplotlib,
+    wandb,
+    java, 
+    cpp,
+    arduino,
   } from "../assets";
   
   export const navLinks = [
@@ -65,6 +74,38 @@ import {
   
   const technologies = [
     {
+      name: "Python",
+      icon: python,
+    },
+    {
+      name: "Flask",
+      icon: flask,
+    },
+    {
+      name: "Pandas",
+      icon: pandas,
+    },
+    {
+      name: "Scikit-learn",
+      icon: scikit,
+    },
+    {
+      name: "Matplotlib",
+      icon: matplotlib,
+    },
+    {
+      name: "Java",
+      icon: java,
+    },
+    {
+      name: "C++",
+      icon: cpp,
+    },
+    {
+      name: "Arduino",
+      icon: arduino,
+    },
+    {
       name: "HTML 5",
       icon: html,
     },
@@ -73,32 +114,20 @@ import {
       icon: css,
     },
     {
-      name: "JavaScript",
-      icon: javascript,
+      name: "Tailwind CSS",
+      icon: tailwind,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "JavaScript",
+      icon: javascript,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "Node JS",
       icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -111,10 +140,6 @@ import {
     {
       name: "figma",
       icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
     },
   ];
   

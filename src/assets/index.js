@@ -29,6 +29,9 @@ import wandb from "./tech/wandb.png";
 import java from "./tech/java.png";
 import cpp from "./tech/cpp.png";
 import arduino from "./tech/arduino.png";
+import stata from "./tech/stata.png";
+import c from "./tech/c.png";
+import sql from "./tech/sql.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -77,4 +80,7 @@ export {
   java,
   cpp,
   arduino,
+  stata,
+  c,
+  sql,
 };

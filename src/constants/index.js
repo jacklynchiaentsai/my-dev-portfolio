@@ -23,15 +23,12 @@ import {
     jobit,
     tripguide,
     threejs,
-    python, 
-    flask,
-    pandas,
-    scikit,
-    matplotlib,
-    wandb,
-    java, 
+    python,
+    java,
     cpp,
-    arduino,
+    stata,
+    c,
+    sql,
   } from "../assets";
   
   export const navLinks = [
@@ -74,38 +71,6 @@ import {
   
   const technologies = [
     {
-      name: "Python",
-      icon: python,
-    },
-    {
-      name: "Flask",
-      icon: flask,
-    },
-    {
-      name: "Pandas",
-      icon: pandas,
-    },
-    {
-      name: "Scikit-learn",
-      icon: scikit,
-    },
-    {
-      name: "Matplotlib",
-      icon: matplotlib,
-    },
-    {
-      name: "Java",
-      icon: java,
-    },
-    {
-      name: "C++",
-      icon: cpp,
-    },
-    {
-      name: "Arduino",
-      icon: arduino,
-    },
-    {
       name: "HTML 5",
       icon: html,
     },
@@ -114,20 +79,32 @@ import {
       icon: css,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
-    },
-    {
       name: "JavaScript",
       icon: javascript,
+    },
+    {
+      name: "TypeScript",
+      icon: typescript,
     },
     {
       name: "React JS",
       icon: reactjs,
     },
     {
+      name: "Redux Toolkit",
+      icon: redux,
+    },
+    {
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
       name: "Node JS",
       icon: nodejs,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
     },
     {
       name: "Three JS",
@@ -140,6 +117,58 @@ import {
     {
       name: "figma",
       icon: figma,
+    },
+    {
+      name: "docker",
+      icon: docker,
+    },
+  ];
+
+  const languages = [
+    {
+      name: "HTML 5",
+      icon: html,
+      style: "shadow-orange-600"
+    },
+    {
+      name: "CSS 3",
+      icon: css,
+      style: "shadow-blue-500"
+    },
+    {
+      name: "JavaScript",
+      icon: javascript,
+      style: "shadow-yellow-500"
+    },
+    {
+      name: "Python",
+      icon: python,
+      style: "shadow-blue-600"
+    },
+    {
+      name: "Java",
+      icon: java,
+      style: "shadow-orange-400"
+    },
+    {
+      name: "C++",
+      icon: cpp,
+      style: "shadow-sky-500"
+    },
+    {
+      name: "C",
+      icon: c,
+      style: "shadow-blue-700"
+    },
+    {
+      name: "SQL",
+      icon: sql,
+      style: "shadow-purple-500"
+    },
+    {
+      name: "STATA",
+      icon: stata,
+      style: "shadow-indigo-500"
     },
   ];
   
@@ -291,4 +320,4 @@ import {
     },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { services, technologies, experiences, testimonials, projects, languages };

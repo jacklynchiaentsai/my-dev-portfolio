@@ -32,6 +32,9 @@ import arduino from "./tech/arduino.png";
 import stata from "./tech/stata.png";
 import c from "./tech/c.png";
 import sql from "./tech/sql.png";
+import mysql from "./tech/mysql.png";
+import mssql from "./tech/mssql.png";
+import aws from "./tech/aws.png";
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -83,4 +86,7 @@ export {
   stata,
   c,
   sql,
+  mysql,
+  mssql,
+  aws,
 };

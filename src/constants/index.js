@@ -29,6 +29,14 @@ import {
     stata,
     c,
     sql,
+    flask,
+    pandas,
+    scikit,
+    matplotlib,
+    mysql,
+    mssql,
+    aws,
+    arduino,
   } from "../assets";
   
   export const navLinks = [
@@ -71,56 +79,60 @@ import {
   
   const technologies = [
     {
-      name: "HTML 5",
-      icon: html,
-    },
-    {
-      name: "CSS 3",
-      icon: css,
-    },
-    {
-      name: "JavaScript",
-      icon: javascript,
-    },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
-    {
       name: "React JS",
       icon: reactjs,
-    },
-    {
-      name: "Redux Toolkit",
-      icon: redux,
-    },
-    {
-      name: "Tailwind CSS",
-      icon: tailwind,
     },
     {
       name: "Node JS",
       icon: nodejs,
     },
     {
-      name: "MongoDB",
-      icon: mongodb,
-    },
-    {
       name: "Three JS",
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Tailwind CSS",
+      icon: tailwind,
+    },
+    {
+      name: "Flask",
+      icon: flask,
+    },
+    {
+      name: "Pandas",
+      icon: pandas,
+    },
+    {
+      name: "Scikit-learn",
+      icon: scikit,
+    },
+    {
+      name: "Matplotlib",
+      icon: matplotlib,
+    },
+    {
+      name: "MySQL",
+      icon: mysql,
+    },
+    {
+      name: "MSSQL",
+      icon: mssql,
+    },
+    {
+      name: "AWS",
+      icon: aws,
+    },
+    {
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
+      name: "Figma",
       icon: figma,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Arduino",
+      icon: arduino,
     },
   ];
 

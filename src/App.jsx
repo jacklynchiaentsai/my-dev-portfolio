@@ -1,7 +1,10 @@
 // import pre-built components
 import {BrowserRouter} from 'react-router-dom';
 import {About, Contact, Experience, Feedbacks, Hero, Navbar, Tech, Works, StarsCanvas} from './components';
+
+// additionally created sections
 import Prolangs from './components/Prolangs';
+import SocialLinks from './components/SocialLinks';
 
 const App = () => {
 
@@ -20,8 +23,8 @@ const App = () => {
         <Feedbacks />
         <div className ="relative z-0">
           <Contact />
-          <StarsCanvas />
         </div>
+        <SocialLinks />
       </div>
     </BrowserRouter>
   )

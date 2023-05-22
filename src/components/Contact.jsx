@@ -19,12 +19,42 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false)
 
-  const handleChange =() => {
+  const handleChange =(e) => {
+    const {name, value} = e.target
 
+    setForm({...form, [name]: value })
   }
 
-  const handleSubmit = () => {
+  const handleSubmit = (e) => {
+    e.preventDefault()  // prevent browser from refreshing
+    setLoading(true)
 
+    emailjs.send(
+      'service_pbq4xls', 
+      'template_fykt0yg', 
+      {
+        from_name: form.name,
+        to_name: 'Jacklyn',
+        from_email: form.email,
+        to_email: 'jacklyntsai1213@gmail.com',
+        message: form.message,
+      },
+      'cho75lmjCU878J-iH'
+      ).then(()=> {
+        setLoading(false)
+        alert('Thank you! I will get back to you as soon as possible.')
+
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        })
+      }, (error) => {
+        setLoading(false)
+
+        console.log(error)
+        alert('Something went wrong.')
+      })
   }
 
 

@@ -37,6 +37,9 @@ import {
     mssql,
     aws,
     arduino,
+    ewb,
+    naginata,
+    tasa,
   } from "../assets";
   
   export const navLinks = [
@@ -46,34 +49,34 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
+    },
+    {
+      id: "projects",
+      title: "Projects",
     },
     {
       id: "contact",
       title: "Contact",
-    },
-    {
-      id: "resume",
-      title: "Resume"
     }
   ];
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full Stack Web Developer",
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Data Analyst / ML Researcher",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
-      icon: backend,
+      title: "IOS App Developer",
+      icon: creator,
     },
     {
-      title: "Content Creator",
-      icon: creator,
+      title: "Project Manager",
+      icon: backend,
     },
   ];
   
@@ -187,24 +190,24 @@ import {
 
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
+      title: "Software Engineer",
+      company_name: "Columbia Build Lab - OROxyz",
       icon: starbucks,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "September 2022 - May 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Designed & Developed IOS app back-end Flask API, deploying on AWS EC2 Server",
+        "Constructed & Maintained robust MySQL user database system",
+        "Implemented Twilio, Google O Auth, Google Geocode APIs for secure identity verification",
+        "Facilitated weekly meetings on product design and front-end synchronization",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
+      title: "Machine Learning Research Assistant",
+      company_name: "Columbia Business School",
       icon: tesla,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Sep 2022 - Present",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -213,24 +216,23 @@ import {
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
+      title: "Full Stack Software Engineer Intern",
+      company_name: "Kang Da Information Inc.",
       icon: shopify,
       iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      date: "June 2022 - July 2022",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Worked alongside engineering team in  developing Governmental system software across multiple agencies",
+        "Developed user interface for Inter-agency Communication System using Javascript, HTML / CSS",
+        "Constructed back-end logic for user query, filtering features with Java, automating query speed by 15%",
       ],
     },
     {
-      title: "Full stack Developer",
-      company_name: "Meta",
+      title: "Data Analyst Intern",
+      company_name: "CyCraft Technology Coroporation",
       icon: meta,
       iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
+      date: "Sep 2019 - May 2021",
       points: [
         "Developing and maintaining web applications using React.js and other related technologies.",
         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -244,26 +246,29 @@ import {
     {
       testimonial:
         "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "Sara Lee",
-      designation: "CFO",
-      company: "Acme Co",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      name: "CU Engineers Without Borders: Uganda Chapter",
+      date: "September 2021 - Present",
+      title: "Grants & Fundraising Team Lead",
+      image: ewb,
+      link: "https://www.instagram.com/cuewbuganda/",
     },
     {
       testimonial:
         "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "Chris Brown",
-      designation: "COO",
-      company: "DEF Corp",
-      image: "https://randomuser.me/api/portraits/men/5.jpg",
+      name: "CU Taiwanese American Student Association",
+      date: "September 2021 - Present",
+      title: "Social Media Chair",
+      image: tasa,
+      link: "https://www.instagram.com/tasa_cu/",
     },
     {
       testimonial:
         "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "Lisa Wang",
-      designation: "CTO",
-      company: "456 Enterprises",
-      image: "https://randomuser.me/api/portraits/women/6.jpg",
+      name: "CU Naginata Club",
+      date: "September 2022 - Present",
+      title: "Member (3-kyu)",
+      image: naginata,
+      link: "https://www.instagram.com/cunaginata/",
     },
   ];
   

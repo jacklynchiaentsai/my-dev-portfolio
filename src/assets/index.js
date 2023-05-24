@@ -45,6 +45,10 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import ewb from "./clubs/ewb.png";
+import naginata from "./clubs/naginata.png";
+import tasa from "./clubs/tasa.png";
+
 export {
   logo,
   backend,
@@ -89,4 +93,7 @@ export {
   mysql,
   mssql,
   aws,
+  ewb,
+  tasa,
+  naginata,
 };

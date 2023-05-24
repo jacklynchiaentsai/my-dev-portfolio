@@ -7,6 +7,55 @@ import {services} from '../constants'
 import {fadeIn, textVariant} from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 
+import {FaGithub, FaLinkedin, FaInstagram, FaFileAlt} from "react-icons/fa"
+
+const about_links =[
+        {
+          id: 1,
+          child: (
+            <>
+              <FaLinkedin />
+            </>
+          ),
+          href: "https://www.linkedin.com/in/jacklyn-tsai-4699001bb/",
+        },
+        {
+            id: 2,
+            child: (
+              <>
+                <FaFileAlt />
+              </>
+            ),
+            href: "./resume.pdf",
+          },
+          {
+            id: 3,
+            child: (
+              <>
+                <FaGithub />
+              </>
+            ),
+            href: "https://github.com/jacklynchiaentsai",
+          },
+          {
+            id: 4,
+            child: (
+              <>
+                <FaInstagram />
+              </>
+            ),
+            href: "https://www.instagram.com/jacklyn_tsaiii/",
+          },
+    ];
+
+const SocialCard = ({index, child, href}) => {
+  return (
+    <div className='hover:text-white duration-300' onClick={() => window.open(href, "_blank")}>
+      {child}
+    </div>
+  )
+}
+
 const ServiceCard = ({index, title, icon}) => {
   return (
     <Tilt className='xs:w-[250px] w-full'>
@@ -46,6 +95,15 @@ const About = () => {
         Keep scrolling for more!
       </motion.p>
       
+      <div className='text-3xl flex gap-16 py-3 text-secondary mt-2'>
+        {
+          about_links.map((social, index) => (
+            <SocialCard index={index} {...social} />
+          )
+          )
+        }
+      </div>
+
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (
             <ServiceCard key={service.title} index={index} {...service} />

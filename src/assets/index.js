@@ -36,10 +36,10 @@ import mysql from "./tech/mysql.png";
 import mssql from "./tech/mssql.png";
 import aws from "./tech/aws.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import kd from "./company/kd.png";
+import cbs from "./company/cbs.png";
+import cbl from "./company/cbl.png";
+import cycraft from "./company/cycraft.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -71,10 +71,10 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
+  kd,
+  cbl,
+  cbs,
+  cycraft,
   carrent,
   jobit,
   tripguide,

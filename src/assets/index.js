@@ -41,9 +41,11 @@ import cbs from "./company/cbs.png";
 import cbl from "./company/cbl.png";
 import cycraft from "./company/cycraft.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import devportfolio from "./projects/devportfolio.png";
+import divhacks from "./projects/divhacks.png";
+import aoe from "./projects/aoe.jpg";
+import linalg from "./projects/linalg.png";
+import cti from "./projects/cti.png";
 
 import ewb from "./clubs/ewb.png";
 import naginata from "./clubs/naginata.png";
@@ -75,9 +77,11 @@ export {
   cbl,
   cbs,
   cycraft,
-  carrent,
-  jobit,
-  tripguide,
+  devportfolio,
+  divhacks,
+  aoe,
+  linalg,
+  cti,
   python,
   flask,
   pandas,

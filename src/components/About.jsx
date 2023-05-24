@@ -8,6 +8,7 @@ import {fadeIn, textVariant} from '../utils/motion'
 import { SectionWrapper } from '../hoc'
 
 import {FaGithub, FaLinkedin, FaInstagram, FaFileAlt} from "react-icons/fa"
+import profilepic from "../assets/profilepic.jpg"
 
 const about_links =[
         {
@@ -86,23 +87,27 @@ const About = () => {
         <p className={styles.sectionSubText}>Jacklyn Chia-En Tsai</p>
         <h2 className={styles.sectionHeadText}>About Me</h2>
       </motion.div>
-
-      <motion.p 
-        variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'>
-        Hi welcome to my Developer Portfolio! I'm an undergraduate junior (SEAS'25) in Columbia University majoring in Computer Science and minoring in Economics and Entrepreneurship.
-        I have 4+ years of working experience in software engineering and ML-driven data analytics, and am very passionate about building efficient, user-friendly, scalable real-world applications.
-        Keep scrolling for more!
-      </motion.p>
-      
-      <div className='text-3xl flex gap-16 py-3 text-secondary mt-2'>
-        {
-          about_links.map((social, index) => (
-            <SocialCard index={index} {...social} />
-          )
-          )
-        }
+      <div className='max-w-screen-lg mx-auto flex flex-col items-center justify-center  h-full px-4 md:flex-row gap-10 text-left mt-10'>
+          <img src={profilepic} alt="my profile" className='rounded-2xl mx-auto w-1/4' />
+          <div>
+            <motion.p 
+              variants={fadeIn("", "", 0.1, 1)}
+              className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px] ml-0'>
+              Hi welcome to my Developer Portfolio! I'm an undergraduate junior (SEAS'25) in Columbia University majoring in Computer Science and minoring in Economics and Entrepreneurship.
+              I have 4+ years of working experience in software engineering and ML-driven data analytics, and am very passionate about building efficient, user-friendly, scalable real-world applications.
+              Keep scrolling for more!
+            </motion.p>
+            <div className='text-3xl flex gap-16 py-3 text-secondary mt-2'>
+            {
+              about_links.map((social, index) => (
+                <SocialCard index={index} {...social} />
+              )
+              )
+            }
+          </div>
       </div>
+      </div>
+      
 
       <div className="mt-20 flex flex-wrap gap-10">
         {services.map((service, index) => (

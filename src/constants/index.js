@@ -19,9 +19,11 @@ import {
     cbl,
     cbs,
     cycraft,
-    carrent,
-    jobit,
-    tripguide,
+    divhacks,
+    devportfolio,
+    aoe,
+    linalg,
+    cti,
     threejs,
     python,
     java,
@@ -277,51 +279,79 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "Developer Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Interactive developer portfolio using 3D graphics and animation. Showcases my developer journey. Hope you've been enjoying it so far!",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "tailwindcss",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "threejs",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: devportfolio,
+      source_code_link: "",
+      presentation_link: "",
     },
     {
-      name: "Job IT",
+      name: "DiscreetBeats",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Privacty-First, personalized music recommendation system that recommends top 30 songs for user based on user's Spotify playlist, without relying on invasive personal data. Working on developing into interactive web application.",
       tags: [
         {
-          name: "react",
+          name: "pandas",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "scikit-learn",
           color: "green-text-gradient",
         },
         {
-          name: "scss",
+          name: "spotipy",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "matplotlib",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: linalg,
+      source_code_link: "https://github.com/jacklynchiaentsai/discreet-beats",
+      presentation_link: "https://docs.google.com/presentation/d/1HvBEEGLAVwdKIuA4cjcxL9dGonGyP-3m0ooS3iyIsHQ/edit?usp=sharing",
+    },
+    {
+      name: "DivHacks 2022 Website",
+      description:
+        "Contributed in Tech Team for designing and developing the 2022 Diversity Hackathon website. ",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "bootstrap-css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "javascript",
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
-      source_code_link: "https://github.com/",
+      image: divhacks,
+      source_code_link: "https://columbiadivhacks.com/",
+      presentation_link: "",
     },
     {
-      name: "Trip Guide",
+      name: "CTI ANT",
       description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+        "First ML-driven Chinese Cyber Threat Intelligence Analysis System.  Boosts automatic cyber threat classification, analysis, and prediction with 90%+ accuracy. Presented in  2020 IEEE International Conference on Big Data and PyCon Taiwan 2020.",
       tags: [
         {
           name: "nextjs",
@@ -336,8 +366,31 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: cti,
+      source_code_link: "https://ieeexplore.ieee.org/abstract/document/9378125",
+      presentation_link: "https://docs.google.com/presentation/d/1qQilNufomKsaqa24ZzwZ2kuBB_RFjwsu9Nc_szeUAPY/edit?usp=sharing",
+    },
+    {
+      name: "Drummaster",
+      description:
+        "Aruduino Video Game inspired by Piano Tiles. Player presses a board of four buttons to the rhythm of a song, with Easy, Medium, and Hard levels.",
+      tags: [
+        {
+          name: "c++",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "arduino",
+          color: "green-text-gradient",
+        },
+        {
+          name: "wiring",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: aoe,
+      source_code_link: "https://github.com/jacklynchiaentsai/drummaster",
+      presentation_link: "https://www.youtube.com/watch?v=gtKCA8Y4odY",
     },
   ];
   

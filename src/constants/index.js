@@ -354,16 +354,24 @@ import {
         "First ML-driven Chinese Cyber Threat Intelligence Analysis System.  Boosts automatic cyber threat classification, analysis, and prediction with 90%+ accuracy. Presented in  2020 IEEE International Conference on Big Data and PyCon Taiwan 2020.",
       tags: [
         {
-          name: "nextjs",
+          name: "Beautiful-Soup",
           color: "blue-text-gradient",
         },
         {
-          name: "supabase",
+          name: "Scikit-learn",
           color: "green-text-gradient",
         },
         {
-          name: "css",
+          name: "NLP",
           color: "pink-text-gradient",
+        },
+        {
+          name: "Matplotlib",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "Flask",
+          color: "white-text-gradient",
         },
       ],
       image: cti,

@@ -16,33 +16,34 @@ const SocialLinks = () => {
           style: 'rounded-tr-md'
         },
         {
-            id: 2,
-            child: (
-              <>
-                Resume <FaFileAlt size={30} />
-              </>
-            ),
-            href: "./resume.pdf",
-          },
-          {
-            id: 3,
-            child: (
-              <>
-                Github <FaGithub size={30} />
-              </>
-            ),
-            href: "https://github.com/jacklynchiaentsai",
-          },
-          {
-            id: 4,
-            child: (
-              <>
-                Instagram <FaInstagram size={30} />
-              </>
-            ),
-            href: "https://www.instagram.com/jacklyn_tsaiii/",
-            style: 'rounded-br-md'
-          },
+          id: 2,
+          child: (
+            <>
+              Resume / CV <FaFileAlt size={30} />
+            </>
+          ),
+          href: "https://drive.google.com/drive/folders/16zhizTh2pWZjSabISBpagb0GVXlWyEvH?usp=sharing",
+        },
+        
+        {
+          id: 3,
+          child: (
+            <>
+              Github <FaGithub size={30} />
+            </>
+          ),
+          href: "https://github.com/jacklynchiaentsai",
+        },
+        {
+          id: 4,
+          child: (
+            <>
+              Instagram <FaInstagram size={30} />
+            </>
+          ),
+          href: "https://www.instagram.com/jacklyn_tsaiii/",
+          style: 'rounded-br-md'
+        },
     ];
 
   return (

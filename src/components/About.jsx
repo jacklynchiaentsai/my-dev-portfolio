@@ -27,7 +27,7 @@ const about_links =[
                 <FaFileAlt />
               </>
             ),
-            href: "./resume.pdf",
+            href: "https://drive.google.com/drive/folders/16zhizTh2pWZjSabISBpagb0GVXlWyEvH?usp=sharing",
           },
           {
             id: 3,

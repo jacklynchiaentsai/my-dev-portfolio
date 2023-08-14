@@ -93,8 +93,8 @@ const About = () => {
             <motion.p 
               variants={fadeIn("", "", 0.1, 1)}
               className='mt-4 text-secondary text-[17px] max-w-4xl leading-[30px] ml-0'>
-              Hi welcome to my Developer Portfolio! I'm an undergraduate junior (SEAS'25) in Columbia University majoring in Computer Science and minoring in Economics and Entrepreneurship.
-              I have 4+ years of working experience in software engineering and ML-driven data analytics, and am very passionate about building efficient, user-friendly, scalable real-world applications.
+              Hi welcome to my Developer Portfolio! I'm an undergraduate junior (SEAS'25) in Columbia University majoring in Computer Science and minoring in Economics (Finance).
+              I have 4+ years of working experience in machine learning driven systems and software engineering, and am very passionate about building efficient, scalable, intelligent real-world applications.
               Keep scrolling for more!
             </motion.p>
             <div className='text-3xl flex gap-16 py-3 text-secondary mt-2'>

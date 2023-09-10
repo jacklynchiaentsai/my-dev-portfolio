@@ -42,6 +42,8 @@ import {
     ewb,
     naginata,
     tasa,
+    cu,
+    openai,
   } from "../assets";
   
   export const navLinks = [
@@ -65,19 +67,19 @@ import {
   
   const services = [
     {
-      title: "Full Stack Web Developer",
+      title: "Full Stack Developer",
       icon: web,
     },
     {
-      title: "Data Analyst / ML Researcher",
+      title: "Machine Learning Researcher / Engineer",
       icon: mobile,
     },
     {
-      title: "IOS App Developer",
+      title: "Data Scientist",
       icon: creator,
     },
     {
-      title: "Project Manager",
+      title: "IOS App Developer",
       icon: backend,
     },
   ];
@@ -192,17 +194,14 @@ import {
 
   const experiences = [
     {
-      title: "Software Engineer",
-      company_name: "Columbia Build Lab - OROxyz",
-      company_link: "https://www.columbiabuildlab.com/",
-      icon: cbl,
+      title: "Teaching Assistant",
+      company_name: "Columbia University Computer Science Department",
+      company_link: "https://www.cs.columbia.edu/",
+      icon: cu,
       iconBg: "#E6DEDD",
-      date: "September 2022 - May 2023",
+      date: "Sep 2022 - Present",
       points: [
-        "Designed & Developed IOS app back-end Flask API, deploying on AWS EC2 Server",
-        "Constructed & Maintained robust MySQL user database system",
-        "Implemented Twilio, Google O Auth, Google Geocode APIs for secure identity verification",
-        "Facilitated weekly meetings on product design and front-end synchronization",
+        "Essential Data Structures in C / C++, Professor Timothy Paine"
       ],
     },
     {
@@ -213,9 +212,24 @@ import {
       iconBg: "#E6DEDD",
       date: "Sep 2022 - Present",
       points: [
+        "Assisted in Toxic Media Comment Risk Minimization (presentation), Uncertainty Quantification in Improving Decision Making ML Systems Research (current)",
         "Leveraged python Pandas library to filter desirable demographic identity groups for study",
-        "Assisted in DQN Reinforcement Model training, testing, pipelining using PyTorch",
-        "Conducted hyperparameter tuning and visualization with WandB for model optimization",
+        "Implemented DQN Reinforcement Model training, testing, pipelining using PyTorch",
+        "Conducted hyperparameter tuning and visualization with WandB for model optimization"
+      ],
+    },
+    {
+      title: "Software Engineer Intern",
+      company_name: "Columbia Build Lab - OROxyz",
+      company_link: "https://www.columbiabuildlab.com/",
+      icon: cbl,
+      iconBg: "#E6DEDD",
+      date: "September 2022 - August 2023",
+      points: [
+        "Translated graphics, frontend logic into interactive web user interface with React.js",
+        "Developed backend REST API using Python Flask, resulting in a streamlined user experience for login, verification, and profile management, successfully deployed onto an AWS EC2 server",
+        "Engineered MySQL relational database with robust backend connection, resulting 30% reduction in response times"
+
       ],
     },
     {
@@ -226,65 +240,61 @@ import {
       iconBg: "#E6DEDD",
       date: "June 2022 - July 2022",
       points: [
-        "Worked alongside engineering team in  developing Governmental system software across multiple agencies",
-        "Developed user interface for Inter-agency Communication System using Javascript, HTML / CSS",
-        "Constructed back-end logic for user query features with Java, automating query speed by 15%",
+        "Engaged in client and engineering team meetings, facilitating effective communication and translating client requirements into technical specifications",
+        "Developed a user-friendly web interface for client’s inter-agency communication system using JavaScript and HTML, enhancing user engagement and accessibility to critical information.",
+        "Engineered and optimized back-end logic for automating staff and document query functionalities using Java and MSSQL, achieving a 15% reduction in query response time"
       ],
     },
     {
-      title: "Data Analyst Intern",
+      title: "Machine Learning Intern",
       company_name: "CyCraft Technology Coroporation",
       company_link: "https://cycraft.com/",
       icon: cycraft,
       iconBg: "#E6DEDD",
       date: "Sep 2019 - May 2021",
       points: [
-        "Leveraged webscraping (BeautifulSoup), Natural Language Processing modules in Python to extract Cyber Threat Intelligence from internet security platforms",
-        "Implemented scikit-learn classification data pipeline to streamline cyber threat classification, analysis, and prediction",
-        "Developed AI Threat Intelligence Analysis System (link), boosting automatic threat hunting with 90%+ accuracy",
-        "Deployed ML-driven system on Flask web framework for client accessibility",
+        "Leveraged webscraping using BeautifulSoup, data processing in Pandas, and Natural Language Processing technologies in Python to extract informative Cyber Threat Intelligence from internet security platforms",
+        "Implemented scikit-learn data pipeline to streamline cyber data classification, analysis, prediction",
+        "Developed Threat Intelligence Analysis System, published on 2020 IEEE International Big Data Conference",
+        "Deployed ML-driven system on Flask web framework, boosting automatic threat hunting with 90%+ accuracy"
       ],
     },
   ];
   
-  const testimonials = [
-    {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-      name: "CU Engineers Without Borders: Uganda Chapter",
-      date: "September 2021 - Present",
-      title: "Grants & Fundraising Team Lead",
-      image: ewb,
-      link: "https://www.instagram.com/cuewbuganda/",
-    },
-    {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
-      name: "CU Taiwanese American Student Association",
-      date: "September 2021 - Present",
-      title: "Social Media Chair",
-      image: tasa,
-      link: "https://www.instagram.com/tasa_cu/",
-    },
-    {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-      name: "CU Naginata Club",
-      date: "September 2022 - Present",
-      title: "Member (3-kyu)",
-      image: naginata,
-      link: "https://www.instagram.com/cunaginata/",
-    },
-  ];
-  
   const projects = [
+    {
+      name: "Full Stack AI Text to Image Generation App",
+      description:
+        "Interactive website empowering users to generate visually stunning AI images with their own creative prompts and showcase with community",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "tailwindcss",
+          color: "green-text-gradient",
+        },
+        {
+          name: "express.js",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "MongoDB",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: openai,
+      source_code_link: "https://github.com/jacklynchiaentsai/ai-fullstack-textgenimage",
+      presentation_link: "https://www.youtube.com/watch?v=XzxFDBnQzyY",
+    },
     {
       name: "Developer Portfolio",
       description:
         "Interactive developer portfolio using 3D graphics and animation. Showcases my developer journey. Hope you've been enjoying it so far!",
       tags: [
         {
-          name: "react",
+          name: "react.js",
           color: "blue-text-gradient",
         },
         {

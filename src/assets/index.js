@@ -40,12 +40,14 @@ import kd from "./company/kd.png";
 import cbs from "./company/cbs.png";
 import cbl from "./company/cbl.png";
 import cycraft from "./company/cycraft.png";
+import cu from "./company/cu.jpeg";
 
 import devportfolio from "./projects/devportfolio.png";
 import divhacks from "./projects/divhacks.png";
 import aoe from "./projects/aoe.jpg";
 import linalg from "./projects/linalg.png";
 import cti from "./projects/cti.png";
+import openai from "./projects/openai.png";
 
 import ewb from "./clubs/ewb.png";
 import naginata from "./clubs/naginata.png";
@@ -100,4 +102,6 @@ export {
   ewb,
   tasa,
   naginata,
+  cu,
+  openai
 };

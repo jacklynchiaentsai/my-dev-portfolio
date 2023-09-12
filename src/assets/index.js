@@ -48,6 +48,7 @@ import aoe from "./projects/aoe.jpg";
 import linalg from "./projects/linalg.png";
 import cti from "./projects/cti.png";
 import openai from "./projects/openai.png";
+import fairness from "./projects/fairness.png";
 
 import ewb from "./clubs/ewb.png";
 import naginata from "./clubs/naginata.png";
@@ -103,5 +104,6 @@ export {
   tasa,
   naginata,
   cu,
-  openai
+  openai, 
+  fairness
 };

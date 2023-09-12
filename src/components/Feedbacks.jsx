@@ -39,7 +39,9 @@ const features = [
     content:(
       <div className='font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1'>
         <p>GPA: 3.98 / 4.0</p>
-        <p>Computer Networks, Advanced Programming, Econometrics, ...</p>
+        <p>Machine Learning (Graduate), Natural Langauge Processing,</p>
+        <p>Engineering Software as a Service, Computer Networks, </p>
+        <p>Financial Economics, Econometrics...</p>
       </div>
     )
   },

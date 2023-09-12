@@ -44,6 +44,7 @@ import {
     tasa,
     cu,
     openai,
+    fairness,
   } from "../assets";
   
   export const navLinks = [
@@ -220,7 +221,7 @@ import {
     },
     {
       title: "Software Engineer Intern",
-      company_name: "Columbia Build Lab - OROxyz",
+      company_name: "Columbia Build Lab",
       company_link: "https://www.columbiabuildlab.com/",
       icon: cbl,
       iconBg: "#E6DEDD",
@@ -262,6 +263,32 @@ import {
   ];
   
   const projects = [
+    {
+      name: "Machine Learning Fairness in Employment",
+      description:
+        "Self driven ML research project examining the interplay between model accuracy vs. equality violation, and analyzing the capability of different machine learning models to capture the underlying inequality patterns in data. Using American Community Survey.",
+      tags: [
+        {
+          name: "python",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "scikit-learn",
+          color: "green-text-gradient",
+        },
+        {
+          name: "folktables",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "NumPy",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: fairness,
+      source_code_link: "https://colab.research.google.com/drive/1kyYgCdDT9HTG5jibKDjNDsZFkJrMBwRt?usp=sharing",
+      presentation_link: "",
+    },
     {
       name: "Full Stack AI Text to Image Generation App",
       description:
@@ -414,26 +441,20 @@ import {
   
   const testimonials = [
     {
-      testimonial:
-        "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
       name: "CU Engineers Without Borders: Uganda Chapter",
       date: "September 2021 - Present",
-      title: "Grants & Fundraising Team Lead",
+      title: "Research Team Lead, Grants & Fundraising Team Lead",
       image: ewb,
       link: "https://www.instagram.com/cuewbuganda/",
     },
     {
-      testimonial:
-        "I've never met a web developer who truly cares about their clients' success like Rick does.",
       name: "CU Taiwanese American Student Association",
-      date: "September 2021 - Present",
+      date: "September 2021 - May 2023",
       title: "Social Media Chair",
       image: tasa,
       link: "https://www.instagram.com/tasa_cu/",
     },
     {
-      testimonial:
-        "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
       name: "CU Naginata Club",
       date: "September 2022 - Present",
       title: "Member (3-kyu)",
@@ -441,5 +462,5 @@ import {
       link: "https://www.instagram.com/cunaginata/",
     },
   ];
-  
+
   export { services, technologies, experiences, testimonials, projects, languages };

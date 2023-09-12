@@ -72,7 +72,7 @@ import {
       icon: web,
     },
     {
-      title: "Machine Learning Researcher / Engineer",
+      title: "ML & NLP Researcher / Engineer",
       icon: mobile,
     },
     {

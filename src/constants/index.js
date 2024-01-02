@@ -45,6 +45,7 @@ import {
     cu,
     openai,
     fairness,
+    smart,
   } from "../assets";
   
   export const navLinks = [
@@ -200,9 +201,11 @@ import {
       company_link: "https://www.cs.columbia.edu/",
       icon: cu,
       iconBg: "#E6DEDD",
-      date: "Sep 2022 - Present",
+      date: "Sep 2022 - Dec 2023",
       points: [
-        "Essential Data Structures in C / C++, Professor Timothy Paine"
+        "Essential Data Structures in C / C++, Professor Timothy Paine",
+        "Mentored 30+ students in developing, debugging, and optimizing C / C++ program algorithms on linux environment",
+        "Designed and implemented linux shell test scripts, automating and streamlining grading assessment procedures"
       ],
     },
     {
@@ -213,10 +216,9 @@ import {
       iconBg: "#E6DEDD",
       date: "Sep 2022 - Present",
       points: [
-        "Assisted in Toxic Media Comment Risk Minimization (presentation), Uncertainty Quantification in Improving Decision Making ML Systems Research (current)",
+        "Research: Enhancing robustness of machine learning decision systems with uncertainty quantification",
         "Leveraged python Pandas library to filter desirable demographic identity groups for study",
-        "Implemented DQN Reinforcement Model training, testing, pipelining using PyTorch",
-        "Conducted hyperparameter tuning and visualization with WandB for model optimization"
+        "Implemented design, training, testing, pipelining, optimization of various models w/ PyTorch, Tensorflow, WandB",
       ],
     },
     {
@@ -242,8 +244,8 @@ import {
       date: "June 2022 - July 2022",
       points: [
         "Engaged in client and engineering team meetings, facilitating effective communication and translating client requirements into technical specifications",
-        "Developed a user-friendly web interface for client’s inter-agency communication system using JavaScript and HTML, enhancing user engagement and accessibility to critical information.",
-        "Engineered and optimized back-end logic for automating staff and document query functionalities using Java and MSSQL, achieving a 15% reduction in query response time"
+        "Developed user interface & client features for inter-agency communication system using HTML, Javascript",
+        "Developed automated dynamic system query feature using Java and MSSQL, optimizing back-end logic and achieving 15% reduction in query time"
       ],
     },
     {
@@ -263,6 +265,24 @@ import {
   ];
   
   const projects = [
+    {
+      name: "SMart: Student Marketplace App Reinventing Trade",
+      description:
+        "Secure, User-friendly social marketplace app tailored to college students. Aims to tackle frustrations college students have when trading items and services on social media platforms.",
+      tags: [
+        {
+          name: "react.js",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "ruby-on-rails",
+          color: "green-text-gradient",
+        },
+      ],
+      image: fairness,
+      source_code_link: "https://smart-app-59e319232238.herokuapp.com/",
+      presentation_link: "https://youtu.be/wkx2PCfyxcg?si=-O1FOpX88bjmb-Wg",
+    },
     {
       name: "Machine Learning Fairness in Employment",
       description:
@@ -382,7 +402,7 @@ import {
         },
       ],
       image: divhacks,
-      source_code_link: "https://columbiadivhacks.com/",
+      source_code_link: "https://github.com/jacklynchiaentsai/2022-divhacks",
       presentation_link: "",
     },
     {
@@ -441,8 +461,15 @@ import {
   
   const testimonials = [
     {
+      name: "CU Engineers Without Borders: Ghana Chapter",
+      date: "December 2023 - Present",
+      title: "Project Manager",
+      image: ewb,
+      link: "https://www.instagram.com/cuewbuganda/",
+    },
+    {
       name: "CU Engineers Without Borders: Uganda Chapter",
-      date: "September 2021 - Present",
+      date: "September 2021 - December 2023",
       title: "Research Team Lead, Grants & Fundraising Team Lead",
       image: ewb,
       link: "https://www.instagram.com/cuewbuganda/",

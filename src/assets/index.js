@@ -49,6 +49,7 @@ import linalg from "./projects/linalg.png";
 import cti from "./projects/cti.png";
 import openai from "./projects/openai.png";
 import fairness from "./projects/fairness.png";
+import smart from "./projects/smart.png"
 
 import ewb from "./clubs/ewb.png";
 import naginata from "./clubs/naginata.png";
@@ -105,5 +106,6 @@ export {
   naginata,
   cu,
   openai, 
-  fairness
+  fairness,
+  smart
 };

@@ -279,7 +279,7 @@ import {
           color: "green-text-gradient",
         },
       ],
-      image: fairness,
+      image: smart,
       source_code_link: "https://smart-app-59e319232238.herokuapp.com/",
       presentation_link: "https://youtu.be/wkx2PCfyxcg?si=-O1FOpX88bjmb-Wg",
     },

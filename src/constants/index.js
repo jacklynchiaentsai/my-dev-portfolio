@@ -46,6 +46,7 @@ import {
     openai,
     fairness,
     smart,
+    rag,
   } from "../assets";
   
   export const navLinks = [
@@ -265,6 +266,28 @@ import {
   ];
   
   const projects = [
+    {
+      name: "RAG: your smarter chatGPT",
+      description:
+        "Retrieval augmented generation powered chatbot featuring customizable external knowledge base and source citation features, reducing model hallucination",
+      tags: [
+        {
+          name: "streamlit",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "openai",
+          color: "green-text-gradient",
+        },
+        {
+          name: "langchain",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: rag,
+      source_code_link: "",
+      presentation_link: "https://www.youtube.com/watch?v=8csl6wCjO5g",
+    },
     {
       name: "SMart: Student Marketplace App Reinventing Trade",
       description:

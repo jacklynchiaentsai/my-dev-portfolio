@@ -43,7 +43,7 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, p
             
             <div
               onClick={() => { 
-                if (presentation_link !== ""){
+                if (source_code_link !== ""){
                   window.open(source_code_link, "_blank")
                 } else{
                   window.alert("Sorry, the source code is private for now. Please refer to presentation link")

@@ -42,7 +42,13 @@ const ProjectCard = ({index, name, description, tags, image, source_code_link, p
             </div>
             
             <div
-              onClick={() => window.open(source_code_link, "_blank")}
+              onClick={() => { 
+                if (presentation_link !== ""){
+                  window.open(source_code_link, "_blank")
+                } else{
+                  window.alert("Sorry, the source code is private for now. Please refer to presentation link")
+                }
+              }}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
             >
               <img 

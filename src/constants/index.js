@@ -4,17 +4,12 @@ import {
     creator,
     web,
     javascript,
-    typescript,
     html,
     css,
     reactjs,
-    redux,
-    tailwind,
-    nodejs,
     mongodb,
     git,
     figma,
-    docker,
     kd,
     cbl,
     cbs,
@@ -24,21 +19,15 @@ import {
     aoe,
     linalg,
     cti,
-    threejs,
     python,
     java,
     cpp,
-    stata,
     c,
     sql,
     flask,
     pandas,
     scikit,
-    matplotlib,
-    mysql,
-    mssql,
     aws,
-    arduino,
     ewb,
     naginata,
     tasa,
@@ -47,6 +36,14 @@ import {
     fairness,
     smart,
     rag,
+    wbd,
+    kotlin,
+    django,
+    compose,
+    expressjs,
+    pytorch,
+    tensorflow,
+    numpy
   } from "../assets";
   
   export const navLinks = [
@@ -70,19 +67,19 @@ import {
   
   const services = [
     {
-      title: "Full Stack Developer",
+      title: "Software Engineering",
       icon: web,
     },
     {
-      title: "ML & NLP Researcher / Engineer",
+      title: "Machine Learning & Data Science",
       icon: mobile,
     },
     {
-      title: "Data Scientist",
+      title: "Natural Language Processing",
       icon: creator,
     },
     {
-      title: "IOS App Developer",
+      title: "Web & Mobile App Development",
       icon: backend,
     },
   ];
@@ -93,56 +90,56 @@ import {
       icon: reactjs,
     },
     {
-      name: "Node JS",
-      icon: nodejs,
+      name: "Django",
+      icon: django,
     },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Jetpack Compose",
+      icon: compose,
     },
     {
-      name: "Tailwind CSS",
-      icon: tailwind,
+      name: "Express.js",
+      icon: expressjs,
     },
     {
       name: "Flask",
       icon: flask,
     },
     {
-      name: "Pandas",
-      icon: pandas,
-    },
-    {
-      name: "Scikit-learn",
-      icon: scikit,
-    },
-    {
-      name: "Matplotlib",
-      icon: matplotlib,
-    },
-    {
-      name: "MySQL",
-      icon: mysql,
-    },
-    {
-      name: "MSSQL",
-      icon: mssql,
+      name: "Git",
+      icon: git,
     },
     {
       name: "AWS",
       icon: aws,
     },
     {
-      name: "Git",
-      icon: git,
+      name: "PyTorch",
+      icon: pytorch,
+    },
+    {
+      name: "Tensorflow",
+      icon: tensorflow,
+    },
+    {
+      name: "Scikit-Learn",
+      icon: scikit,
+    },
+    {
+      name: "Pandas",
+      icon: pandas,
+    },
+    {
+      name: "NumPy",
+      icon: numpy,
+    },
+    {
+      name: "MongoDB",
+      icon: mongodb,
     },
     {
       name: "Figma",
       icon: figma,
-    },
-    {
-      name: "Arduino",
-      icon: arduino,
     },
   ];
 
@@ -178,8 +175,8 @@ import {
       style: "shadow-sky-500"
     },
     {
-      name: "C",
-      icon: c,
+      name: "Kotlin",
+      icon: kotlin,
       style: "shadow-blue-700"
     },
     {
@@ -188,25 +185,25 @@ import {
       style: "shadow-purple-500"
     },
     {
-      name: "STATA",
-      icon: stata,
-      style: "shadow-indigo-500"
+      name: "C",
+      icon: c,
+      style: "shadow-blue-700"
     },
   ];
   
 
   const experiences = [
     {
-      title: "Teaching Assistant",
-      company_name: "Columbia University Computer Science Department",
+      title: "Software Engineer Intern",
+      company_name: "Warner Bros.Discovery",
       company_link: "https://www.cs.columbia.edu/",
-      icon: cu,
+      icon: wbd,
       iconBg: "#E6DEDD",
-      date: "Sep 2022 - Dec 2023",
+      date: "June 2024 - August 2024",
       points: [
-        "Essential Data Structures in C / C++, Professor Timothy Paine",
-        "Mentored 30+ students in developing, debugging, and optimizing C / C++ program algorithms on linux environment",
-        "Designed and implemented linux shell test scripts, automating and streamlining grading assessment procedures"
+        "Max Android Client Team",
+        "Spearheading development of mobile app widget for the android Max streaming platform, increasing content promotion and user engagement and retention (Kotlin, Jetpack Compose / Glance, Engage SDK)",
+        "Fixed bug reports and expanded testing coverage of the android Max mobile app",
       ],
     },
     {
@@ -215,11 +212,24 @@ import {
       company_link: "https://home.gsb.columbia.edu/",
       icon: cbs,
       iconBg: "#E6DEDD",
-      date: "Sep 2022 - Present",
+      date: "Sep 2022 - May 2024",
       points: [
         "Research: Enhancing robustness of machine learning decision systems with uncertainty quantification",
         "Leveraged python Pandas library to filter desirable demographic identity groups for study",
         "Implemented design, training, testing, pipelining, optimization of various models w/ PyTorch, Tensorflow, WandB",
+      ],
+    },
+    {
+      title: "Teaching Assistant",
+      company_name: "Columbia University Computer Science Department",
+      company_link: "https://www.cs.columbia.edu/",
+      icon: cu,
+      iconBg: "#E6DEDD",
+      date: "Sep 2023 - Dec 2023",
+      points: [
+        "Essential Data Structures in C / C++, Professor Timothy Paine",
+        "Mentored 30+ students in developing, debugging, and optimizing C / C++ program algorithms on linux environment",
+        "Designed and implemented linux shell test scripts, automating and streamlining grading assessment procedures"
       ],
     },
     {
@@ -237,7 +247,7 @@ import {
       ],
     },
     {
-      title: "Full Stack Software Engineer Intern",
+      title: "Software Engineer Intern",
       company_name: "Kang Da Information Inc.",
       company_link: "https://www.kangdainfo.com/web/index.html?pageId=1",
       icon: kd,

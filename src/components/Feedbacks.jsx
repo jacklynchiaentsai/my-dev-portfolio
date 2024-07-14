@@ -23,7 +23,7 @@ const features = [
     title: "Bachelor of Science",
     content:(
       <div className='font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1'>
-        <p>Major: Computer Science / Minor: Economics, Entrpreneurship</p>
+        <p>Major: Computer Science / Minor: Economics (Finance)</p>
         <p>Expected May 2025</p>
       </div>
     )
@@ -39,7 +39,7 @@ const features = [
     content:(
       <div className='font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1'>
         <p>GPA: 3.98 / 4.0</p>
-        <p>Machine Learning (Graduate), Natural Langauge Processing,</p>
+        <p>Machine Learning, Natural Langauge Processing,</p>
         <p>Engineering Software as a Service, Computer Networks, </p>
         <p>Financial Economics, Econometrics...</p>
       </div>
@@ -52,10 +52,10 @@ const features = [
         <FaAward className='w-[50%] h-[50%] object-contain' />
       </>
     ),
-    title: "Scholar Honors",
+    title: "Honors",
     content:(
       <div className='font-poppins font-normal text-dimWhite text-[16px] leading-[24px] mb-1'>
-        <p>C.P. Davis Scholar, Columbia Undergraduate Scholars Program</p>
+        <p>Davis Scholar, Columbia Undergraduate Scholars Program</p>
         <p>Dean's List</p>
       </div>
     )

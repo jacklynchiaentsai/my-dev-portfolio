@@ -7,40 +7,37 @@ import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
-import html from "./tech/html.png";
-import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import html from "./programming/html.png";
+import css from "./programming/css.png";
+import javascript from "./programming/javascript.png";
+import python from "./programming/python.png";
+import java from "./programming/java.png";
+import cpp from "./programming/cpp.png";
+import kotlin from "./programming/kotlin.png";
+import sql from "./programming/sql.png";
+import c from "./programming/c.png";
+
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
-import python from "./tech/python.png";
+import django from "./tech/django.png";
+import compose from "./tech/compose.png";
+import expressjs from "./tech/expressjs.png";
 import flask from "./tech/flask.png";
-import pandas from "./tech/pandas.png";
-import scikit from "./tech/scikit.png";
-import matplotlib from "./tech/matplotlib.png";
-import wandb from "./tech/wandb.png";
-import java from "./tech/java.png";
-import cpp from "./tech/cpp.png";
-import arduino from "./tech/arduino.png";
-import stata from "./tech/stata.png";
-import c from "./tech/c.png";
-import sql from "./tech/sql.png";
-import mysql from "./tech/mysql.png";
-import mssql from "./tech/mssql.png";
+import git from "./tech/git.png";
 import aws from "./tech/aws.png";
+import pytorch from "./tech/pytorch.png";
+import tensorflow from "./tech/tensorflow.png";
+import scikit from "./tech/scikit.png";
+import pandas from "./tech/pandas.png";
+import numpy from "./tech/numpy.png";
+import mongodb from "./tech/mongodb.png";
+import figma from "./tech/figma.png";
 
 import kd from "./company/kd.png";
 import cbs from "./company/cbs.png";
 import cbl from "./company/cbl.png";
 import cycraft from "./company/cycraft.png";
 import cu from "./company/cu.jpeg";
+import wbd from "./company/wbd.png";
 
 import devportfolio from "./projects/devportfolio.png";
 import divhacks from "./projects/divhacks.png";
@@ -65,19 +62,12 @@ export {
   github,
   menu,
   close,
-  css,
-  docker,
   figma,
   git,
   html,
   javascript,
   mongodb,
-  nodejs,
   reactjs,
-  redux,
-  tailwind,
-  typescript,
-  threejs,
   kd,
   cbl,
   cbs,
@@ -91,16 +81,10 @@ export {
   flask,
   pandas,
   scikit,
-  matplotlib,
-  wandb,
   java,
   cpp,
-  arduino,
-  stata,
   c,
   sql,
-  mysql,
-  mssql,
   aws,
   ewb,
   tasa,
@@ -109,5 +93,14 @@ export {
   openai, 
   fairness,
   smart,
-  rag
+  rag,
+  wbd,
+  kotlin,
+  css,
+  django,
+  compose,
+  expressjs,
+  pytorch,
+  tensorflow,
+  numpy
 };

@@ -33,7 +33,7 @@ import {
     tasa,
     cu,
     openai,
-    fairness,
+    sentixtrade,
     smart,
     rag,
     wbd,
@@ -277,6 +277,28 @@ import {
   
   const projects = [
     {
+      name: "SentixTrade: AI Stock Trading Assistant",
+      description:
+        "Automated NLP-driven stock trading bot that dynamically adjusts trading strategy based on accurate sentiment analysis on financial news",
+      tags: [
+        {
+          name: "django",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "pytorch",
+          color: "green-text-gradient",
+        },
+        {
+          name: "streamlit",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: sentixtrade,
+      source_code_link: "https://github.com/jacklynchiaentsai/fin-trading-bot",
+      presentation_link: "",
+    },
+    {
       name: "RAG: your smarter chatGPT",
       description:
         "Retrieval augmented generation powered chatbot featuring customizable external knowledge base and source citation features, reducing model hallucination",
@@ -299,7 +321,7 @@ import {
       presentation_link: "https://www.youtube.com/watch?v=8csl6wCjO5g",
     },
     {
-      name: "SMart: Student Marketplace App Reinventing Trade",
+      name: "SMart: Student Marketplace App",
       description:
         "Secure, User-friendly social marketplace app tailored to college students. Aims to tackle frustrations college students have when trading items and services on social media platforms.",
       tags: [
@@ -315,32 +337,6 @@ import {
       image: smart,
       source_code_link: "https://smart-app-59e319232238.herokuapp.com/",
       presentation_link: "https://youtu.be/wkx2PCfyxcg?si=-O1FOpX88bjmb-Wg",
-    },
-    {
-      name: "Machine Learning Fairness in Employment",
-      description:
-        "Self driven ML research project examining the interplay between model accuracy vs. equality violation, and analyzing the capability of different machine learning models to capture the underlying inequality patterns in data. Using American Community Survey.",
-      tags: [
-        {
-          name: "python",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "scikit-learn",
-          color: "green-text-gradient",
-        },
-        {
-          name: "folktables",
-          color: "pink-text-gradient",
-        },
-        {
-          name: "NumPy",
-          color: "orange-text-gradient",
-        },
-      ],
-      image: fairness,
-      source_code_link: "https://colab.research.google.com/drive/1kyYgCdDT9HTG5jibKDjNDsZFkJrMBwRt?usp=sharing",
-      presentation_link: "",
     },
     {
       name: "Full Stack AI Text to Image Generation App",
@@ -439,9 +435,9 @@ import {
       presentation_link: "",
     },
     {
-      name: "CTI ANT",
+      name: "CTI ANT (IEEE Publication)",
       description:
-        "First ML-driven Chinese Cyber Threat Intelligence Analysis System.  Boosts automatic cyber threat classification, analysis, and prediction with 90%+ accuracy. Presented in  2020 IEEE International Conference on Big Data and PyCon Taiwan 2020.",
+        "First ML-driven Chinese Cyber Threat Intelligence Analysis System.  Boosts automatic cyber threat classification, analysis, and prediction with 90%+ accuracy.",
       tags: [
         {
           name: "Beautiful-Soup",

@@ -45,7 +45,7 @@ import aoe from "./projects/aoe.jpg";
 import linalg from "./projects/linalg.png";
 import cti from "./projects/cti.png";
 import openai from "./projects/openai.png";
-import fairness from "./projects/fairness.png";
+import sentixtrade from "./projects/sentixtrade.png";
 import smart from "./projects/smart.png"
 import rag from "./projects/rag-pic.png"
 
@@ -91,7 +91,7 @@ export {
   naginata,
   cu,
   openai, 
-  fairness,
+  sentixtrade,
   smart,
   rag,
   wbd,
